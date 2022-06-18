@@ -1,0 +1,15 @@
+{
+    "short_name": "MH:24",
+    "name": "MH:24 The SH:24 Full Stack Engineer Tech Test by Mark Holland",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
