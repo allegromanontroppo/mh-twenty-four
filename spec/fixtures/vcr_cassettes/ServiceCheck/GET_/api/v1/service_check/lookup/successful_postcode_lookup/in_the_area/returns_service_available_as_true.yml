@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 19 Jun 2022 13:35:16 GMT
+      - Sun, 19 Jun 2022 15:01:57 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -37,9 +37,9 @@ http_interactions:
       Cf-Cache-Status:
       - HIT
       Age:
-      - '13585'
+      - '18786'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yF0cOvVnn9uRSha5OpXXebQ7TYuMzE1WHZt0k7MZEn6tyuRzVZLhie1KPBOTYB09BRJGCy2Tqcn51%2FncknXAOXgDaKdH8qNTYjSKduk24JBAGSE2SYH9u8ymd06Hw1N285RexwIJncROQCE1hAc%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FYYA13wFmZwtIYe1FWudDuzB4oag7HPRcqZ7U8JtFjxB%2FAIgt%2BrKCQmo35IE%2FbLo1v6tyP5a6xG%2BHwy8SOxElMFjfPu1cu0zLu9ZRal%2BZKR%2BbiCxiFRCOmQPXofNe%2FR%2FFZYmRlG%2BTNBlQ04E634%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Vary:
@@ -47,7 +47,7 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 71dca5a1bddd406b-LHR
+      - 71dd24978f5b0722-LHR
     body:
       encoding: ASCII-8BIT
       string: '{"status":200,"result":{"postcode":"SE1 7QD","quality":1,"eastings":531513,"northings":179395,"country":"England","nhs_ha":"London","longitude":-0.106793,"latitude":51.498204,"european_electoral_region":"London","primary_care_trust":"Southwark","region":"London","lsoa":"Southwark
@@ -55,5 +55,5 @@ http_interactions:
         and Old Southwark","admin_district":"Southwark","parish":"Southwark, unparished
         area","admin_county":null,"admin_ward":"St George''s","ced":null,"ccg":"NHS
         South East London","nuts":"Lewisham and Southwark","codes":{"admin_district":"E09000028","admin_county":"E99999999","admin_ward":"E05011114","parish":"E43000218","parliamentary_constituency":"E14000553","ccg":"E38000244","ccg_id":"72Q","ced":"E99999999","nuts":"TLI44","lsoa":"E01003930","msoa":"E02006802","lau2":"E09000028"}}}'
-  recorded_at: Sun, 19 Jun 2022 13:37:13 GMT
+  recorded_at: Sun, 19 Jun 2022 15:03:53 GMT
 recorded_with: VCR 6.1.0

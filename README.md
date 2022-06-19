@@ -11,6 +11,7 @@ https://mh-24.herokuapp.com/
 ## Prerequisites
 
 -   ruby-3.1.2
+-   Bundler
 -   Node.js and NPM
 
 ## To install
@@ -19,12 +20,15 @@ Using the terminal:
 
 -   Run `bundle install` to install Ruby Gems.
 -   Within the `client` directory run `npm install`.
--   Back in the top level application directory install the [foreman gem](https://github.com/ddollar/foreman) with `gem install foreman` .
+-   Back in the top level application directory install the [Foreman](https://github.com/ddollar/foreman) gem with `gem install foreman` .
 
 ## To run up the web app
 
 Using the terminal simply run `foreman start -f Procfile.dev`. This will use the Procfile.dev to start the Rails server for the api and local webpack server for the client side.
 
 ## To run the tests
+
+We use [RSPEC](https://rspec.info/) for unit tests against tbe business logic found in `app/external_services` and `app/interactors` and as a full request integration test against the api controller.
+[VCR](https://relishapp.com/vcr/vcr/docs) is used to mock external network requests.
 
 Using the terminal simply run `bin/rspec spec`

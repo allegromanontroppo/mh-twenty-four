@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.postcodes.io/postcodes/G3%208YW
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 19 Jun 2022 15:01:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Gnu:
+      - Michael J Blanchard
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"3a3-M/tpNr8efEooNNQpCQmqkSQSvp8"
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '381'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ef%2FgpksUKQkaLyTe%2FungqOsCoHNxaFlkhzrsR2b9NEfH62WK42S2sJJzuPeb15Egy%2FnkbrUDZWP%2BbutLX3gz0tHiusLQm4OBeNAi7WhORKsiVDInF1QHJRAtxLIb1t1PjHni0qeoFNLxCRk0kAs%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 71dd2497fd9c73df-LHR
+    body:
+      encoding: ASCII-8BIT
+      string: '{"status":200,"result":{"postcode":"G3 8YW","quality":1,"eastings":256848,"northings":665448,"country":"Scotland","nhs_ha":"Greater
+        Glasgow and Clyde","longitude":-4.288808,"latitude":55.860895,"european_electoral_region":"Scotland","primary_care_trust":"Glasgow
+        City Community Health Partnership","region":null,"lsoa":"Finnieston and Kelvinhaugh
+        - 02","msoa":"Finnieston and Kelvinhaugh","incode":"8YW","outcode":"G3","parliamentary_constituency":"Glasgow
+        Central","admin_district":"Glasgow City","parish":null,"admin_county":null,"admin_ward":"Anderston/City/Yorkhill","ced":null,"ccg":"Glasgow
+        City Community Health Partnership","nuts":"Glasgow City","codes":{"admin_district":"S12000049","admin_county":"S99999999","admin_ward":"S13002976","parish":"S99999999","parliamentary_constituency":"S14000029","ccg":"S03000043","ccg_id":"043","ced":"S99999999","nuts":"TLM82","lsoa":"S01010283","msoa":"S02001936","lau2":"S30000052"}}}'
+  recorded_at: Sun, 19 Jun 2022 15:03:53 GMT
+recorded_with: VCR 6.1.0

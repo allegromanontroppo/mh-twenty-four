@@ -10,8 +10,7 @@ module ServiceCheck
     include Interactor
 
     def call
-      context.service_available = true if allowed_lsoa?
-      context.service_available = true if context.not_found && other_permitted_postcode?
+      context.service_available = !!(allowed_lsoa? || (context.not_found && other_permitted_postcode?))
     end
 
     private
