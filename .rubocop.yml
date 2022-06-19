@@ -19,4 +19,4 @@ AllCops:
         - !ruby/regexp /old_and_unused\.rb$/
 
 Layout/EndOfLine:
-    EnforcedStyle: crlf
+    EnforcedStyle: lf

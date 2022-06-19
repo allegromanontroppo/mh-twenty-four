@@ -21,6 +21,10 @@ Using the terminal:
 -   Within the `client` directory run `npm install`.
 -   Back in the top level application directory install the [foreman gem](https://github.com/ddollar/foreman) with `gem install foreman` .
 
-## To Run
+## To run up the web app
 
 Using the terminal simply run `foreman start -f Procfile.dev`. This will use the Procfile.dev to start the Rails server for the api and local webpack server for the client side.
+
+## To run the tests
+
+Using the terminal simply run `bin/rspec spec`
