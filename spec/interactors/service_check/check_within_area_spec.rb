@@ -2,7 +2,7 @@
 
 require 'rails_helper'
 
-describe Postcodes::CheckWithinArea do
+describe ServiceCheck::CheckWithinArea do
   describe '.call' do
     context 'postcode was found' do
       subject(:context) { described_class.call(postcode: 'SE1 7QD', lsoa: 'Southwark 034A') }
@@ -12,7 +12,7 @@ describe Postcodes::CheckWithinArea do
       end
 
       it 'lsoa is allowed' do
-        expect(context.allowed_lsoa).to be_truthy
+        expect(context.service_available).to be_truthy
       end
     end
 
@@ -26,7 +26,7 @@ describe Postcodes::CheckWithinArea do
           end
 
           it 'lsoa is allowed' do
-            expect(context.allowed_lsoa).to be_truthy
+            expect(context.service_available).to be_truthy
           end
         end
 
@@ -38,7 +38,7 @@ describe Postcodes::CheckWithinArea do
           end
 
           it 'lsoa is not allowed' do
-            expect(context.allowed_lsoa).to be_falsy
+            expect(context.service_available).to be_falsy
           end
         end
       end
@@ -52,7 +52,7 @@ describe Postcodes::CheckWithinArea do
           end
 
           it 'lsoa is allowed' do
-            expect(context.allowed_lsoa).to be_truthy
+            expect(context.service_available).to be_truthy
           end
         end
 
@@ -64,7 +64,7 @@ describe Postcodes::CheckWithinArea do
           end
 
           it 'lsoa is not allowed' do
-            expect(context.allowed_lsoa).to be_falsy
+            expect(context.service_available).to be_falsy
           end
         end
       end

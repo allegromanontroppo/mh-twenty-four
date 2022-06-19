@@ -5,12 +5,13 @@
 ALLOWED_LSOAS = %w[Southwark Lambeth].freeze
 OTHER_PERMITTED_POSTCODES = %w[SH241AA SH241AB].freeze
 
-module Postcodes
+module ServiceCheck
   class CheckWithinArea
     include Interactor
 
     def call
-      context.allowed_lsoa = allowed_lsoa? || other_permitted_postcode?
+      context.service_available = true if allowed_lsoa?
+      context.service_available = true if context.not_found && other_permitted_postcode?
     end
 
     private

@@ -6,8 +6,8 @@ module Postcodes
     NOT_FOUND_MESSAGE = 'Postcode not found'
     INVALID_MESSAGE = 'Invalid postcode'
 
-    def initialize(post_code:)
-      @post_code = post_code
+    def initialize(postcode:)
+      @postcode = postcode
     end
 
     def ok?
@@ -34,7 +34,7 @@ module Postcodes
 
     private
 
-    attr_reader :post_code
+    attr_reader :postcode
 
     def body
       @body ||= JSON.parse(response.body)
@@ -52,7 +52,7 @@ module Postcodes
     end
 
     def path
-      URI::Parser.new.escape "/postcodes/#{post_code}"
+      URI::Parser.new.escape "/postcodes/#{postcode}"
     end
   end
 end

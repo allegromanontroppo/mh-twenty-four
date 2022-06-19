@@ -2,7 +2,7 @@
 
 require 'rails_helper'
 
-describe Postcodes::FindLsoa do
+describe ServiceCheck::FindLsoa do
   subject(:context) { described_class.call(postcode:) }
 
   before do

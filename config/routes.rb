@@ -3,4 +3,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  namespace :api do
+    namespace :v1 do
+      get '/service_check/lookup/:postcode', to: 'service_check#lookup'
+    end
+  end
 end

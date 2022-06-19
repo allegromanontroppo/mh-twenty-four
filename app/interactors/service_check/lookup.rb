@@ -2,7 +2,7 @@
 
 # PostcodeLookup interactor
 
-module Postcodes
+module ServiceCheck
   class Lookup
     include Interactor::Organizer
 

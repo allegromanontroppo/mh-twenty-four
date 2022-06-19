@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.postcodes.io/postcodes/SH24%201AA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Sun, 19 Jun 2022 13:35:16 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '43'
+      Connection:
+      - keep-alive
+      X-Gnu:
+      - Michael J Blanchard
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"2b-60dCBHUxbddknotWwisUCk6O8SA"
+      Cf-Cache-Status:
+      - HIT
+      Age:
+      - '13585'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uGoJ%2FqanSz8LDU7jYhNzVPDueljtQefMKn0Ei1XmqK2NQ%2BPNKz3S1%2BiKD3zmn7mUcGW00le8e%2FodpKM9R0hQOrImdTWOGPB59g%2BUNrKuA8wllCiFM69fB0pA9RU%2FkolbcDszGhaNzb9fhPyFTQc%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Vary:
+      - Accept-Encoding
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 71dca5a2493d88af-LHR
+    body:
+      encoding: UTF-8
+      string: '{"status":404,"error":"Postcode not found"}'
+  recorded_at: Sun, 19 Jun 2022 13:37:13 GMT
+recorded_with: VCR 6.1.0

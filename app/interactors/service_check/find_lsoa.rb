@@ -2,7 +2,7 @@
 
 # FindLsoa interactor
 
-module Postcodes
+module ServiceCheck
   class FindLsoa
     include Interactor
 

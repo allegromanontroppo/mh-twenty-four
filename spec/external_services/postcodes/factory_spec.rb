@@ -8,11 +8,11 @@ describe Postcodes::Factory do
       # Arrange
       postcodes_io = double(:postcodes_io)
 
-      expect(Postcodes::PostcodesIo).to receive(:new).with(post_code: 'SW1A 2AA').and_return(postcodes_io)
+      expect(Postcodes::PostcodesIo).to receive(:new).with(postcode: 'SW1A 2AA').and_return(postcodes_io)
 
       # Act
       # Assert
-      expect(described_class.create(post_code: 'SW1A 2AA')).to be(postcodes_io)
+      expect(described_class.create(postcode: 'SW1A 2AA')).to be(postcodes_io)
     end
   end
 end
