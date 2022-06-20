@@ -14,7 +14,7 @@ function App() {
             </header>
 
             <main className="bg-zinc-50 px-2 py-4">
-                <div className=" max-w-3xl mx-auto">
+                <div className="max-w-3xl mx-auto">
                     <ServiceChecker />
                 </div>
             </main>
