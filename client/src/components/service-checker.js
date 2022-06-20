@@ -11,6 +11,7 @@ export default function ServiceChecker() {
     const handleSubmit = useCallback(
         async (e) => {
             e.preventDefault();
+            setLookupResult({});
 
             const response = await fetch(`/api/v1/service_check/lookup/${postcode}`);
             if (response.ok) {

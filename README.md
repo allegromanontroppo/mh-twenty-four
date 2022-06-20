@@ -28,7 +28,15 @@ Using the terminal simply run `foreman start -f Procfile.dev`. This will use the
 
 ## To run the tests
 
+### Ruby
+
 We use [RSPEC](https://rspec.info/) for unit tests against tbe business logic found in `app/external_services` and `app/interactors` and as a full request integration test against the api controller.
 [VCR](https://relishapp.com/vcr/vcr/docs) is used to mock external network requests.
 
 Using the terminal simply run `bin/rspec spec`
+
+### React
+
+We use [Jest](https://jestjs.io/), [Testing Library](https://testing-library.com/) and [Fetch Mock](https://www.wheresrhys.co.uk/fetch-mock/) for testing client-side JavaScript and UI.
+
+Using the terminal simply run `npm test` to run the UI tests in service-checker.test.js.
