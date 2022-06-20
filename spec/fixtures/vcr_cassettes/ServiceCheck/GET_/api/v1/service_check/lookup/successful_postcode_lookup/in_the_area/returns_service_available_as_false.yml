@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 19 Jun 2022 15:01:57 GMT
+      - Mon, 20 Jun 2022 16:26:41 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -37,9 +37,9 @@ http_interactions:
       Cf-Cache-Status:
       - HIT
       Age:
-      - '381'
+      - '10302'
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ef%2FgpksUKQkaLyTe%2FungqOsCoHNxaFlkhzrsR2b9NEfH62WK42S2sJJzuPeb15Egy%2FnkbrUDZWP%2BbutLX3gz0tHiusLQm4OBeNAi7WhORKsiVDInF1QHJRAtxLIb1t1PjHni0qeoFNLxCRk0kAs%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tMjY%2BeiupueU1XAdYaVxd2t00943JF%2FQP4jCro1MWfhkozIGa%2F5S5ooKJZq7PSiU7NKnPqsakX2VBiLXCvXo7GCxeEdWS4gCx%2BcnxcmOK1U%2B2ajjKu22c9oxKCbSCVzC7RyEOa%2BI3LWavzTIcqY%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Vary:
@@ -47,7 +47,7 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 71dd2497fd9c73df-LHR
+      - 71e5de1ab9bb7308-LHR
     body:
       encoding: ASCII-8BIT
       string: '{"status":200,"result":{"postcode":"G3 8YW","quality":1,"eastings":256848,"northings":665448,"country":"Scotland","nhs_ha":"Greater
@@ -56,5 +56,5 @@ http_interactions:
         - 02","msoa":"Finnieston and Kelvinhaugh","incode":"8YW","outcode":"G3","parliamentary_constituency":"Glasgow
         Central","admin_district":"Glasgow City","parish":null,"admin_county":null,"admin_ward":"Anderston/City/Yorkhill","ced":null,"ccg":"Glasgow
         City Community Health Partnership","nuts":"Glasgow City","codes":{"admin_district":"S12000049","admin_county":"S99999999","admin_ward":"S13002976","parish":"S99999999","parliamentary_constituency":"S14000029","ccg":"S03000043","ccg_id":"043","ced":"S99999999","nuts":"TLM82","lsoa":"S01010283","msoa":"S02001936","lau2":"S30000052"}}}'
-  recorded_at: Sun, 19 Jun 2022 15:03:53 GMT
+  recorded_at: Mon, 20 Jun 2022 16:28:38 GMT
 recorded_with: VCR 6.1.0

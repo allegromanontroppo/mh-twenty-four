@@ -21,7 +21,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 19 Jun 2022 15:01:56 GMT
+      - Mon, 20 Jun 2022 16:26:41 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -35,11 +35,9 @@ http_interactions:
       Etag:
       - W/"330-tRr7ptnfrETmMK1ctDRco0TH15k"
       Cf-Cache-Status:
-      - HIT
-      Age:
-      - '15082'
+      - MISS
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gZ91b9m%2FeXY2VkUMktFJiKUtSZAvOA0oXvLRPKlvKcAuCwnXWk22QDo%2BOYGu%2FB5B5xFt8r7vbUuqQ%2Bdz63W0HIU1MOlbUmB5A7knsmatQ5x%2Fflu9C5hGupU%2FOKPEs5FV8ESlREMovHZrtr3rQjM%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FitP7c5Y70V%2BUCiib3yMczMToteYyQ%2BdA6FcBX3ppyn5Vn0ABtQfF%2Bz%2BG7SJRD8gikkvb1E%2F1OInutj59iojO5F8JPGdtp4Cf6guxViafXVjYvAK2ahZ5TwtTvc%2Fe7RzOFNGLYsJPZeHyDRO2kY%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Vary:
@@ -47,12 +45,12 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 71dd24955e08755e-LHR
+      - 71e5de184dee06b6-LHR
     body:
       encoding: ASCII-8BIT
       string: '{"status":200,"result":{"postcode":"SE1 7QA","quality":1,"eastings":531183,"northings":179317,"country":"England","nhs_ha":"London","longitude":-0.111573,"latitude":51.49758,"european_electoral_region":"London","primary_care_trust":"Lambeth","region":"London","lsoa":"Lambeth
         036B","msoa":"Lambeth 036","incode":"7QA","outcode":"SE1","parliamentary_constituency":"Vauxhall","admin_district":"Lambeth","parish":"Lambeth,
         unparished area","admin_county":null,"admin_ward":"Bishop''s","ced":null,"ccg":"NHS
         South East London","nuts":"Lambeth","codes":{"admin_district":"E09000022","admin_county":"E99999999","admin_ward":"E05000416","parish":"E43000212","parliamentary_constituency":"E14001008","ccg":"E38000244","ccg_id":"72Q","ced":"E99999999","nuts":"TLI45","lsoa":"E01003014","msoa":"E02006801","lau2":"E09000022"}}}'
-  recorded_at: Sun, 19 Jun 2022 15:03:53 GMT
+  recorded_at: Mon, 20 Jun 2022 16:28:37 GMT
 recorded_with: VCR 6.1.0

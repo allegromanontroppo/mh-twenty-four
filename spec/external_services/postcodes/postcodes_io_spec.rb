@@ -66,7 +66,7 @@ describe Postcodes::PostcodesIo, :vcr do
     context 'postcode has no space' do
       let(:postcode) { 'SH241AA' }
 
-      it 'should not be ok' do
+      it 'should return postcode not found' do
         expect(subject.ok?).to be_falsy
         expect(subject.invalid?).to be_falsy
         expect(subject.not_found?).to be_truthy
